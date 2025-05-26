@@ -1,0 +1,36 @@
+/* src/components/GuestCard.css */
+.guest-card {
+  background: #1a002d;
+  border: 2px solid #ff1aff;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 0 20px rgba(255, 26, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.guest-card:hover {
+  transform: scale(1.05);
+}
+
+.guest-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.guest-info {
+  color: #fff;
+  margin-top: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.guest-info h3 {
+  margin: 0.2rem 0;
+  font-size: 1.2rem;
+}
+
+.guest-info p {
+  margin: 0.1rem;
+  font-size: 0.95rem;
+}

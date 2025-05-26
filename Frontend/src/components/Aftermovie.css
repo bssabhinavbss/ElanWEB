@@ -1,0 +1,70 @@
+.aftermovie-section {
+  padding: 4rem 1rem;
+  background-color:  #0a001f;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.aftermovie-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  background-color:  #0a001f;
+  
+}
+
+.year-selector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.year-button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #1f1f1f;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.year-button:hover {
+  background-color: #ff007a;
+}
+
+.active-year {
+  background-color: #ff007a;
+  box-shadow: 0 0 12px #ff007a;
+}
+
+.video-container {
+  position: relative;
+  background: url('/Users/boreddysrisaiabhinavreddy/Desktop/ElanWEB/Frontend/src/assets/backgrounds.jpg') no-repeat center;
+  background-size: cover;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-wrapper {
+  width: 70%;
+  height: 60%;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.youtube-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 1rem;
+}
