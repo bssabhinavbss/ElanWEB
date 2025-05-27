@@ -1,10 +1,10 @@
 import React from 'react';
 import './Theme.css';
-import backgroundImage from '/src/assets/theme-bg.png';
+
 
 const ThemeSection = () => {
   return (
-    <section className="theme-section" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <section className="theme-section" >
       <div className="theme-wrapper">
         <div className="theme-heading">Theme</div>
         <div className="theme-content">

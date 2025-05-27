@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Cream+Soda&family=Raleway:wght@500&display=swap');
+
+
 .merchandise-section {
-  background: url('/Users/boreddysrisaiabhinavreddy/Desktop/ElanWEB/Frontend/src/assets/merchandise-bg.jpg') no-repeat center center/cover;
+  background-color: #0a001f;
   padding: 4rem 2rem;
   text-align: center;
   border-radius: 0rem;
@@ -9,16 +12,16 @@
 }
 
 .merch-title-container {
-  background-color: rgba(255, 255, 255, 0.15);
+  
   border-radius: 1.5rem;
   display: inline-block;
   padding: 0.8rem 2rem;
   margin-bottom: 2rem;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(0px);
 }
 
 .merch-title {
-  font-family: 'AestheticFont', sans-serif;
+  font-family: 'Chelsea Market', cursive;
   font-size: 2.5rem;
   color: #fff;
 }

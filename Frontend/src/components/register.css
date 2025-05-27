@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Cherry+Cream+Soda&family=Raleway:wght@500&display=swap');
+
+.register-container {
+  background-color: #0a001f;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Cherry Cream Soda', cursive;
+  min-height: 60vh;
+}
+
+.register-title {
+  color: #ff2cfb;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 1rem;
+}
+
+.register-form input {
+  padding: 0.8rem;
+  border: 1px solid #fff;
+  background: transparent;
+  color: white;
+  border-radius: 8px;
+  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 1rem;
+}
+
+.register-button {
+  background-color: #ff2cfb;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #1aff69;
+  box-shadow: 0 0 10px #1aff69;
+}
+
+.register-success {
+  color: #1aff69;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}

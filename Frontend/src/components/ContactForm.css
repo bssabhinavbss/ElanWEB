@@ -1,0 +1,67 @@
+.contact-container {
+  background-color: #0a001f;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-family: 'Cherry Cream Soda', cursive;
+  color: white;
+  min-height: 70vh;
+}
+
+.contact-title {
+  font-family: 'Great Vibes';
+  color: #ff00cc; /* nano pink */
+  font-size: 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.contact-sub {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form .row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Cherry Cream Soda';
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+  margin-top: 1rem;
+}
+
+.submit-button {
+  margin-top: 1.5rem;
+  background-color: #ff00cc; /* nano pink */
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-family: 'Cherry Cream Soda', cursive;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button.sent {
+  background-color: #00ff99; /* nano green */
+}
