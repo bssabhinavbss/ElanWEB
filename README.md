@@ -7,7 +7,6 @@ A responsive and modern event homepage built for Elan & nVision, the techno-cult
 ### Frontend:
 - React.js (with Vite)
 - HTML5 & CSS3
-- Tailwind CSS (optional, if used)
 - React Router DOM
 - React Icons
 - Google Fonts: Chelsea Market, Cherry Cream Soda, Raleway
@@ -20,4 +19,36 @@ A responsive and modern event homepage built for Elan & nVision, the techno-cult
 
 ---
 
-## 2. Frontend File Structure
+## 2. File Structure
+
+├── Backend
+│   ├── controllers
+│   ├── models
+│   ├── node_modules
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── routes
+│   └── server.js
+├── Frontend
+│   ├── README.md
+│   ├── dist
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── node_modules
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   ├── src
+│   └── vite.config.js
+├── README.md
+├── node_modules
+│   ├── cookie
+│   ├── react
+│   ├── react-dom
+│   ├── react-router
+│   ├── react-router-dom
+│   ├── scheduler
+│   └── set-cookie-parser
+├── package-lock.json
+├── package.json
+
