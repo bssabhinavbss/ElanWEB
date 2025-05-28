@@ -67,11 +67,13 @@ A responsive and modern event homepage built for Elan & nVision, the techno-cult
 ## 4. Preview Screenshots
 
 ### Homepage:
-![Homepage Screenshot](screenshots/homepage.png)
+![Homepage Screenshot](screenshots/image1.jpg)
 
 ### Register Form:
-![Register Screenshot](screenshots/register.png)
+![Register Screenshot](screenshots/image2.jpg)
 
+### Working of registration
+![Register Screenshot](screenshots/image3.jpg)
 
 
 ---
