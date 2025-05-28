@@ -1,7 +1,9 @@
 # Elan & nVision | IIT Hyderabad Website
 
 A responsive and modern event homepage built for Elan & nVision, the techno-cultural fest of IIT Hyderabad. This project includes both a front-end in React and a back-end built with Express and MongoDB to handle user registrations.
-
+### NOTE: 
+- Please the above buttons pasted in first wont work cause i didnt update them and i was said to concentrate on front page only
+- important thing to check backend go to Register by scrolling bottom of the page and then test registration 
 ## 1. Technologies Used
 
 ### Frontend:
