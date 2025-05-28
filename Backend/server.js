@@ -15,17 +15,18 @@ app.use(express.json());
 const registerRoute = require('./routes/registerRoute');
 app.use('/api', registerRoute);
 
+// ✅ Root route to handle GET /
+app.get("/", (req, res) => {
+  res.send("Backend server is running for Elan & nVision 🚀");
+});
+
 // MongoDB Connection
-
-require('dotenv').config();
-
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
 
-
- const PORT = process.env.PORT || 5500;
-
+// Start server
+const PORT = process.env.PORT || 5500;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
