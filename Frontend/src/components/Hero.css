@@ -1,14 +1,16 @@
 .hero {
-  background-image: url('/Users/boreddysrisaiabhinavreddy/Desktop/ElanWEB/Frontend/src/assets/temp.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+  background-image: url('/Users/boreddysrisaiabhinavreddy/Desktop/ElanWEB/Frontend/src/assets/logonew.jpg');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color:#0a001f ; 
+  height: 200vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end; 
   justify-content: center;
   position: relative;
+  padding-top: 2rem; 
 }
-
 .hero-overlay {
   text-align: center;
   color: white;
