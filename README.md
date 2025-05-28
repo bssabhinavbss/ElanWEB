@@ -20,27 +20,26 @@ A responsive and modern event homepage built for Elan & nVision, the techno-cult
 ---
 
 ## 2. File Structure
-
-├── Backend
-│   ├── controllers
-│   ├── models
-│   ├── node_modules
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── routes
-│   └── server.js
-├── Frontend
-│   ├── README.md
-│   ├── dist
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── node_modules
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── public
-│   ├── src
-│   └── vite.config.js
-├── README.md
-├── node_modules
-├── package-lock.json
-├── package.json
+- ├── Backend
+- │   ├── controllers
+- │   ├── models
+- │   ├── node_modules
+- │   ├── package-lock.json
+- │   ├── package.json
+- │   ├── routes
+- │   └── server.js
+- ├── Frontend
+- │   ├── README.md
+- │   ├── dist
+- │   ├── eslint.config.js
+- │   ├── index.html
+- │   ├── node_modules
+- │   ├── package-lock.json
+- │   ├── package.json
+- │   ├── public
+- │   ├── src
+- │   └── vite.config.js
+- ├── README.md
+- ├── node_modules
+- ├── package-lock.json
+- ├── package.json
